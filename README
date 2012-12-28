@@ -1,0 +1,14 @@
+Distance matrices extracted from PDB.
+
+Non-redundant PDB downloaded from Zhang.
+
+Secondary structures computed using STRIDE in VMD.
+
+Extracted upper and lower bounds based on 5th and 95th percentile.
+
+Each file in results is for:
+    - Either helix or extended
+    - 4 to 20 continuous helical or extended residues
+    - n x n x 2
+    - last dimension is lower [:,:,0] or upper [:,:,1] bounds
+
